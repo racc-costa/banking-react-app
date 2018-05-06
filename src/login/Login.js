@@ -1,31 +1,33 @@
 import React, { Component } from 'react';
 import './Login.css';
-import { Card, CardHeader, CardContent, CardActions, Button, TextField } from 'material-ui';
+import { Card, CardHeader, CardContent, CardActions, CardMedia, Button, TextField } from 'material-ui';
 import { FormControl } from 'material-ui/Form';
+import login_new_client_bg from '../images/bank_new_client.jpg';
 
 class Login extends Component {
   render() {
     return (
       <div>
         <Card>
-          <CardContent>
-            <CardHeader title="Login" />
-            <FormControl noValidate autoComplete="off">
+          <CardHeader title="Login" />
+          <FormControl noValidate autoComplete="off">
+            <CardContent>
               <TextField required label="Account number" />
+              <p></p>
               <TextField required label="Password" type="password" />
-            </FormControl>
-          </CardContent>
-          <CardActions>
-            <Button variant="raised" color="primary">
-              Access my account
-            </Button>
-          </CardActions>
+            </CardContent>
+            <CardActions>
+              <Button variant="raised" color="primary">
+                Access my account
+              </Button>
+            </CardActions>
+          </FormControl>
         </Card>
         <p></p>
         <Card>
-          <CardContent>
-            <CardHeader title="Create a new account" />
-          </CardContent>
+          <CardHeader title="Not a Client yet? Create a new account" />
+          <CardMedia image={login_new_client_bg} className="cardMedia">
+          </CardMedia>
           <CardActions>
             <Button variant="raised" color="primary">
               Create a new account
