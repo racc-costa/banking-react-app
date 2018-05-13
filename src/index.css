@@ -1,3 +1,15 @@
-.MuiCardHeader-root-64 {
-    padding-left: 0px !important;    
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin: 10px 0px 10px 0px;
+}
+
+.line {
+    margin: 10px 0px 10px 0px;
+}
+
+#appContent {
+    padding: 10px 10px 10px 10px;
 }
