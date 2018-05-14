@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './Login.css';
 import { Button, TextField, FormControlLabel, Checkbox } from 'material-ui';
 import { FormControl } from 'material-ui/Form';
 import PageTitle from '../../components/PageTitle';
