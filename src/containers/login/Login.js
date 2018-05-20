@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Button, TextField, FormControlLabel, Checkbox } from 'material-ui';
 import { FormControl } from 'material-ui/Form';
 import PageTitle from '../../components/PageTitle';
+import { Link } from 'react-router-dom';
 
 class Login extends Component {
 
@@ -15,9 +16,14 @@ class Login extends Component {
                     <div className="line"></div>
                     <TextField required label="Password" type="password" />
                     <div className="line"></div>
-                    <Button variant="raised" color="primary">
-                        Access my account
+                    <Link to={{
+                        pathname: '/home', hash: ''
+                    }
+                    }>
+                        <Button variant="raised" color="primary">
+                            Access my account
                     </Button>
+                    </Link>
                     <FormControlLabel
                         control={
                             <Checkbox color="primary" />
