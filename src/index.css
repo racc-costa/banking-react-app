@@ -6,10 +6,20 @@ h1 {
     margin: 10px 0px 10px 0px;
 }
 
+a {
+    text-decoration: none;
+  }
+
 .line {
     margin: 10px 0px 10px 0px;
 }
 
 #appContent {
     padding: 10px 10px 10px 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin: 0; 
 }
