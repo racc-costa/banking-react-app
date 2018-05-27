@@ -11,7 +11,7 @@ class AppMenu extends Component {
                 <AppBar position="static">
                     <Toolbar>
                         <Typography variant="title" color="inherit">
-                            Your App!
+                            Your Bank!
                         </Typography>
                     </Toolbar>
                 </AppBar>
