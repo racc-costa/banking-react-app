@@ -9,8 +9,8 @@
 	- Run: `git clone https://github.com/racc-costa/banking-react-app.git`
 
 3. Run.
-	- Start backend application: https://github.com/racc-costa/banking-spring-boot-app
 	- Run: `cd banking-react-app`
 	- Run: `npm install`
 	- Run: `npm start`
 	- Try: http://localhost:3000
+	- Start backend application: https://github.com/racc-costa/banking-spring-boot-app
